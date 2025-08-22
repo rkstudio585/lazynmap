@@ -1,7 +1,7 @@
 # LazyNmap 💤
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rkstudio585/lazynmap/main/.github/lazynmap-demo.gif" alt="LazyNmap Demo GIF"/>
+  <img src="https://raw.githubusercontent.com/rkstudio585/lazynmap/main/.github/lazynmap.gif" alt="LazyNmap Demo GIF"/>
 </p>
 
 A user-friendly, TUI-driven wrapper for `nmap` written in Go. Designed for Termux users, sysadmins, and security enthusiasts who want the power of nmap without memorizing complex flags.
@@ -69,6 +69,34 @@ cd lazynmap
 go build -o lazymap .
 ```
 
+---
+
+## Cross-Compile for other systems (The Pro Move):
+*   **For Termux (arm64):**
+    ```bash
+    go build -o lazymap .
+    ```
+*   **For Linux (amd64):**
+    ```bash
+    GOOS=linux GOARCH=amd64 go build -o lazymap .
+    ```
+*   **For Windows (amd64):**
+    ```bash
+    GOOS=windows GOARCH=amd64 go build -o lazymap.exe .
+    ```
+*   **For macOS (Intel amd64):**
+    ```bash
+    GOOS=darwin GOARCH=amd64 go build -o lazymap .
+    ```
+*   **For macOS (Apple Silicon arm64):**
+    ```bash
+    GOOS=darwin GOARCH=arm64 go build -o lazymap .
+    ```
+
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
