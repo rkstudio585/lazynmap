@@ -1,7 +1,7 @@
 # LazyNmap 💤
 
 <p align="center">
-  <img src=".github/lazynmap.gif" alt="LazyNmap Demo GIF" width="600"/>
+  <img src="https://github.com/rkstudio585/lazynmap/blob/master/.github/lazynmap.svg" alt="LazyNmap Demo GIF" width="600"/>
 </p>
 
 A user-friendly, TUI-driven wrapper for `nmap` written in Go. Designed for Termux users, sysadmins, and security enthusiasts who want the power of nmap without memorizing complex flags.
