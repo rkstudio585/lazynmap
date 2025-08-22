@@ -1,7 +1,7 @@
 # LazyNmap 💤
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rkstudio585/lazynmap/main/.github/lazynmap.gif" alt="LazyNmap Demo GIF"/>
+  <img src=".github/lazynmap.gif" alt="LazyNmap Demo GIF" width="600"/>
 </p>
 
 A user-friendly, TUI-driven wrapper for `nmap` written in Go. Designed for Termux users, sysadmins, and security enthusiasts who want the power of nmap without memorizing complex flags.
@@ -69,9 +69,8 @@ cd lazynmap
 go build -o lazymap .
 ```
 
----
+### Cross-Compile for other systems (The Pro Move):
 
-## Cross-Compile for other systems (The Pro Move):
 *   **For Termux (arm64):**
     ```bash
     go build -o lazymap .
